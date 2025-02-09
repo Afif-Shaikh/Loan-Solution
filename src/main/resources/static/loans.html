@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Loans</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="loans.html">Loans</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Loan Applications</h1>
+    <form id="loanForm">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="number" name="amount" placeholder="Loan Amount" required>
+      <input type="number" name="tenure" placeholder="Tenure (years)" required>
+      <input type="number" name="interestRate" placeholder="Interest Rate (%)" required>
+      <button type="submit">Apply for Loan</button>
+    </form>
+    <div id="loanList"></div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
