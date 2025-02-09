@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -52,3 +53,16 @@ target/
 # Ignore database and sensitive info
 *.properties
 *.env
+=======
+# generated files
+target/
+generated/
+
+# dependencies
+Dependencies.toml
+
+# config files
+Config.toml
+# the config files used for testing, Uncomment the following line if you want to commit the test config files
+#!**/tests/Config.toml
+>>>>>>> a09e29b010c3a9337f37b0d84b67f477e5c239af
