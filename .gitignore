@@ -1,0 +1,54 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# New changes in git ignore file on 9 feb
+# Ignore target (compiled files)
+target/
+*.class
+
+# Ignore IDE and OS files
+*.log
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# Ignore Maven / Gradle dependencies
+.mvn/
+.gradle/
+
+# Ignore database and sensitive info
+*.properties
+*.env
